@@ -1,7 +1,25 @@
 header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.navigation-container .title {
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-container .buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-input-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .user-input-container .title {
