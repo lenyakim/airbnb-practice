@@ -38,6 +38,11 @@ footer section.upper li {
   margin-top: 16px;
 }
 
+footer .upper a {
+  color: rgb(34, 34, 34);
+  line-height: 18px;
+}
+
 footer hr {
   opacity: 0.2;
 }
