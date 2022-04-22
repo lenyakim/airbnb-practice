@@ -31,7 +31,9 @@ section.lwer article.right span {
   display: flex;
 }
 footer .title {
+  color: black;
   font-weight: bolder;
+  padding: 0;
 }
 
 footer section.upper li {
