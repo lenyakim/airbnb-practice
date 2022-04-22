@@ -18,17 +18,29 @@
 }
 
 .ukraine-text{
-    font-size: 36px;
+    height: 54px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
+}
+
+.more{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(255, 56, 92);
 }
 
 .curiosity-container {
     width: 100%;
     height: 900px;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .curiosity-image {
@@ -37,21 +49,31 @@
     height: 100%;
 }
 
-.curiosity-text {
+.curiosity-text-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     position: absolute;
     top: 80%;
     transform: translate(-50%, -50%);
     left: 50%;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-
 
 }
 
+.curiosity-text {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.curiosity-button {
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
 .image-info-container {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     padding-bottom: 10px;
@@ -61,6 +83,7 @@
     color: black;
     font-size: 42px;
     font-weight: bold;
+    margin-bottom: 42px;
 
 }
 
@@ -71,28 +94,61 @@
 
 .city {
     display: flex;
+    padding: 0 10px;
     flex-direction: column;
-    border-radius: 12px;
     height: 615px;
 
 }
 
+.city:first-child {
+    padding-left: 0;
+
+}
+
+.city:last-child {
+    padding-right: 0;
+}
+
 .city-image {
-    height: 50%;
+    width: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-.city-text {
+
+.city-text{
+    padding-top: 25px;
+    padding-left: 15px;
+    height: 230px;
     display: flex;
-    height: 50%;
-    background-color: rgb(222, 49, 81);
+    flex-direction: column;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 
 }
+.city-text-seoul {
+    background-color: rgb(222, 49, 81);
+}
+
+.city-text-incheon {
+
+    background-color: rgb(188, 26, 110);
+}
+
+.city-text-daegu {
+
+    background-color: rgb(204, 45, 74);
+}
+
+.city-text-daejeon {
+
+    background-color: rgb(217, 59, 48);
+
+}
 
 .city-name {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .city-distance {
