@@ -1,18 +1,16 @@
 header {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-body {
-  padding: 0px 10px;
+  background-color: black;
+  padding: 30px 100px;
 }
 
 .navigation-container {
+  margin-top: 20px;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
@@ -29,7 +27,6 @@ body {
   flex-direction: row;
   width: 400px;
   justify-content: center;
-  
 }
 
 .title {
@@ -48,10 +45,13 @@ body {
   display: flex;
   flex-direction: row;
   background-color: white;
-  padding: 4px 10px;
+  padding: 10px 10px;
   border-radius: 30px;
 }
 
+.hamburger-bar {
+  margin-right: 10px;
+}
 .be-a-host {
   padding: 0 15px;
 }
@@ -94,7 +94,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #FF385C;
+  background-color: #ff385c;
   margin: 0 10px;
   height: 40px;
   width: 40px;
