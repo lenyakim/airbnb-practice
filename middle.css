@@ -1,102 +1,108 @@
-.middle{
-    padding: 0 111px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.ukraine-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 450px;
-    border-radius: 12px;
-    background-color: rgb(255, 56, 92);
-    justify-content: center;
+.promotion-container {
+  padding: 100px 0;
+  min-width: 100%;
+  background-color: black;
+}
+.background-half-container {
+  width: 100%;
+  background: linear-gradient(to bottom, black 50%, #ffffff 50%);
 }
 
-.ukraine-text{
-    height: 54px;
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
-
+.ukraine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  border-radius: 12px;
+  margin: 0 100px;
+  background-color: rgb(255, 56, 92);
+  justify-content: center;
 }
 
-.more{
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 30px;
-    border-radius: 6px;
-    color: white;
-    border: 1px solid white;
-    background-color: rgb(255, 56, 92);
+.ukraine-text {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .curiosity-container {
-    width: 100%;
-    height: 900px;
-    position: relative;
-    margin-bottom: 80px;
+  height: 900px;
+  margin: 0 100px;
+  position: relative;
+
 }
 
 .curiosity-image {
-    border-radius: 12px;
-    width: 100%;
-    height: 100%;
+  border-radius: 12px;
+  width: 100%;
 }
 
-.curiosity-text-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    top: 80%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-
-}
 
 .curiosity-text {
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-
+  top: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.curiosity-button {
-    margin-top: 15px;
-    border-radius: 50%;
+.curiosity-text button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+  border: unset;
+}
+
+.ukraine-button {
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: rgb(255, 56, 92);
+  border: 1px solid white;
 }
 
 .image-info-container {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
 }
 
 .image-info-text {
-    color: black;
-    font-size: 42px;
-    font-weight: bold;
-    margin-bottom: 42px;
+  color: black;
+  font-size: 42px;
+  font-weight: bold;
 
 }
 
 .city-info {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .city {
+
     display: flex;
     padding: 0 10px;
     flex-direction: column;
     height: 615px;
+
 
 }
 
@@ -110,6 +116,7 @@
 }
 
 .city-image {
+
     width: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -146,11 +153,13 @@
 }
 
 .city-name {
+
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+
 }
 
 .city-distance {
-    font-size: 15px;
+  font-size: 15px;
 }
