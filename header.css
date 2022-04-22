@@ -5,22 +5,98 @@ header {
   align-items: center;
 }
 
+body {
+  padding: 0px 10px;
+}
+
 .navigation-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-container .logo {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: auto;
 }
 
 .navigation-container .buttons {
   display: flex;
   flex-direction: row;
+  width: 400px;
+  justify-content: center;
+  
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+}
+
+.navigation-container .user-profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 4px 10px;
+  border-radius: 30px;
+}
+
+.be-a-host {
+  padding: 0 15px;
+}
+
+.language {
+  padding: 13px 0px;
 }
 
 .user-input-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  border-radius: 32px;
+  background: white;
+  height: 60px;
+}
+
+.user-input-container input {
+  border: none;
 }
 
 .user-input-container .title {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  padding: 0 0;
+}
+
+.user-input-container .category {
+  padding: 0 20px;
+  border-left: 1px solid black;
+}
+
+.user-input-container .category:first-child {
+  border: none;
+}
+
+.user-input-container .search-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF385C;
+  margin: 0 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
